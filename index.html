@@ -41,8 +41,6 @@
           
             <h3 class="font-weight-bold ">No products added yet!!</h3>
         </div>
-        <div class="total-amount font-weight-bold">Total Amount: $0.00</div>
-        <button class="btn btn-danger clear-cart">Clear Cart</button>
       </div>
       </div>
 
@@ -58,30 +56,21 @@
             </tr>
           </thead>
           <tbody id="AddedProducts">
-            <tr>
-              <td>Product 1</td>
-              <td>$10</td>
-              <td>Available</td>
-              <td>
-                <button class="btn btn-primary">Book</button>
-              </td>
-            </tr>
-            <tr>
-              <td>Product 2</td>
-              <td>$20</td>
-              <td>Not Available</td>
-              <td>
-                <button class="btn btn-primary" disabled>Book</button>
-              </td>
-            </tr>
+           <!-- <p>No product added yet!</p> -->
             <!-- Add more product rows as needed -->
           </tbody>
         </table>
+        <div class="total-amount font-weight-bold">Total Amount: $0.00</div>
+
+        <button class="btn btn-danger clear-cart">Clear Cart</button>
       </div>
-    
+
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+      
   <!-- Include JavaScript file -->
-  <script src="app.js"></script>
+  <script type="module" src="product.js"></script>
+  <script type="module" src="cart.js"></script>
+  <script type="module" src="app.js"></script>
+
 </body>
 </html>
